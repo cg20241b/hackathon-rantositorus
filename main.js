@@ -142,6 +142,11 @@ fontLoader.load(
       font: font,
       size: 1,
       height: 0.2,
+      bevelEnabled: true,
+      bevelThickness: 0.1,
+      bevelSize: 0.05,
+      bevelOffset: 0,
+      bevelSegments: 5,
     });
     const alphabetMesh = new THREE.Mesh(
       alphabetGeometry,

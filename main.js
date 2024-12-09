@@ -28,7 +28,7 @@ fontLoader.load(
       size: 1,
       height: 0.2,
     });
-    const alphabetMaterial = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+    const alphabetMaterial = new THREE.MeshBasicMaterial({ color: 0x073763 });
     const alphabetMesh = new THREE.Mesh(alphabetGeometry, alphabetMaterial);
     alphabetMesh.position.set(-2, 0, 0);
     scene.add(alphabetMesh);
@@ -38,7 +38,7 @@ fontLoader.load(
       size: 1,
       height: 0.2,
     });
-    const digitMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff });
+    const digitMaterial = new THREE.MeshBasicMaterial({ color: 0x633307 });
     const digitMesh = new THREE.Mesh(digitGeometry, digitMaterial);
     digitMesh.position.set(2, 0, 0);
     scene.add(digitMesh);
